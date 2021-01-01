@@ -4,6 +4,10 @@
   "description": "Learning Typescript by making a Blockchain with it",
   "main": "index.js",
   "repository": "https://github.com/type2kw/typescript.git",
-  "author": "kw.kim <303kkw@gmail.com>",
-  "license": "MIT"
+  "author": "2kw <type2kw@gmail.com>",
+  "license": "MIT",
+  "scripts": {  
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
