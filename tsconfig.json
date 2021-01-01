@@ -1,4 +1,4 @@
-{ // typescript 컴파일 옵션
+{
     "compilerOptions": {
         "module": "commonjs",
         "target": "ES2015", // 자바스크립트 버전
