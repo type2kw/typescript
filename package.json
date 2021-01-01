@@ -6,8 +6,13 @@
   "repository": "https://github.com/type2kw/typescript.git",
   "author": "2kw <type2kw@gmail.com>",
   "license": "MIT",
-  "scripts": {  
-    "start": "node index.js",
-    "prestart": "tsc"
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
   }
 }
